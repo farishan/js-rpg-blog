@@ -11,11 +11,21 @@ export default function RPG() {
                     <Header />
 
                     <main>
+                        <div className="prose mb-8">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li><a href="https://forums.rpgmakerweb.com/index.php?threads/core-gameplay-loops-in-an-rpg.134427/" target="_blank" rel="noopener noreferrer">Core gameplay loops in an RPG?</a></li>
+                                <li>
+                                    <a href="http://gamestudies.org/0802/articles/sicart" target="_blank" rel="noopener noreferrer">Defining Game Mechanics by Miguel Sicart (www.miguelsicart.net)</a>
+                                </li>
+                            </ul>
+                        </div>
                         <iframe
                             src="https://en.wikipedia.org/w/index.php?title=Role-playing_game&oldid=1105803899"
                             frameBorder="0"
                             className="w-full h-[50vh] border border-4 mb-8"
                         />
+
                     </main>
                 </Container>
             </Layout>
