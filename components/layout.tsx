@@ -1,4 +1,4 @@
-import Alert from './alert'
+import PreviewAlert from './preview-alert'
 import Footer from './footer'
 import Meta from './meta'
 
@@ -15,7 +15,10 @@ const Layout = ({ preview, children, noMeta, title, additionalOgImages }: Props)
     <>
       {!noMeta && <Meta title={title} additionalOgImages={additionalOgImages} />}
       <div className="min-h-screen">
-        <Alert preview={preview} />
+        {
+          preview &&
+          <PreviewAlert />
+        }
         <main>{children}</main>
       </div>
       <Footer />
