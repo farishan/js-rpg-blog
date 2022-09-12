@@ -5,12 +5,15 @@ import Meta from './meta'
 type Props = {
   preview?: boolean
   children: React.ReactNode
+  noMeta?: boolean
+  title?: string
+  additionalOgImages?: any[]
 }
 
-const Layout = ({ preview, children }: Props) => {
+const Layout = ({ preview, children, noMeta, title, additionalOgImages }: Props) => {
   return (
     <>
-      <Meta />
+      {!noMeta && <Meta title={title} additionalOgImages={additionalOgImages} />}
       <div className="min-h-screen">
         <Alert preview={preview} />
         <main>{children}</main>
