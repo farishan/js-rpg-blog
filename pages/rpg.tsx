@@ -14,6 +14,7 @@ export default function RPG() {
                         <div className="prose mb-8">
                             <h3>Useful Links</h3>
                             <ul>
+                                <li><a href="https://developer.mozilla.org/en-US/docs/Games" target="_blank" rel="noopener noreferrer">MDN Game Development Center</a></li>
                                 <li><a href="https://forums.rpgmakerweb.com/index.php?threads/core-gameplay-loops-in-an-rpg.134427/" target="_blank" rel="noopener noreferrer">Core gameplay loops in an RPG?</a></li>
                                 <li>
                                     <a href="http://gamestudies.org/0802/articles/sicart" target="_blank" rel="noopener noreferrer">Defining Game Mechanics by Miguel Sicart (www.miguelsicart.net)</a>
