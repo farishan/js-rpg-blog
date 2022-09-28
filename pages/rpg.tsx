@@ -12,6 +12,15 @@ export default function RPG() {
 
                     <main>
                         <div className="prose mb-8">
+                            <h2>Rules</h2>
+                            <ul>
+                                <li>RPG have characters, played by player or non-player (AI)</li>
+                            </ul>
+                        </div>
+
+                        <hr className="my-8"/>
+
+                        <div className="prose mb-8">
                             <h3>Useful Links</h3>
                             <ul>
                                 <li><a href="https://developer.mozilla.org/en-US/docs/Games" target="_blank" rel="noopener noreferrer">MDN Game Development Center</a></li>

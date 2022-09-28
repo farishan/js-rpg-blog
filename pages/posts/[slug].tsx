@@ -26,7 +26,7 @@ export default function Post({ post, morePosts, preview }: Props) {
     <Layout
       preview={preview}
       title={`${post.title} | Next.js Blog Example with ${CMS_NAME}`}
-      additionalOgImages={[{ url: post.ogImage.url }]}
+      additionalOgImages={[post.ogImage ? { url: post.ogImage.url } : {}]}
     >
       <Container>
         <Header />

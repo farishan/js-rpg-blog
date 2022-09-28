@@ -10,6 +10,11 @@ ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
+### Update 20220921:
+- "Simplest" is too abstract to develop. Define "Simplest" to get real result.
+
+---
+
 # Objectives
 
 Simplest experience as possible.
